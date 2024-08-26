@@ -8,6 +8,7 @@ use self::config::Config;
 
 pub mod config;
 pub mod db;
+pub mod error;
 pub mod routes;
 
 #[derive(Clone)]
