@@ -51,4 +51,4 @@ CREATE TABLE user_api_key (
 
 -- Update the `user_account` table to denote which email address to use as the primary means of
 -- communications.
-ALTER TABLE user_account ADD COLUMN primary_email INT REFERENCES user_email_address(id) NOT NULL;
+ALTER TABLE user_account ADD COLUMN primary_email INT REFERENCES user_email_address(id);
